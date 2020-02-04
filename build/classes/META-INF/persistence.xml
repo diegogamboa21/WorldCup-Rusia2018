@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="Rusia2018PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>rusia2018.Cliente</class>
+    <class>rusia2018.Ciudad</class>
+    <class>rusia2018.Goles</class>
+    <class>rusia2018.Equipo</class>
+    <class>rusia2018.Partido</class>
+    <class>rusia2018.Auxiliar</class>
+    <class>rusia2018.Silla</class>
+    <class>rusia2018.Grupo</class>
+    <class>rusia2018.Director</class>
+    <class>rusia2018.Clubes</class>
+    <class>rusia2018.Pais</class>
+    <class>rusia2018.Jugador</class>
+    <class>rusia2018.Tiquete</class>
+    <class>rusia2018.Tarjeta</class>
+    <class>rusia2018.Juez</class>
+    <class>rusia2018.Categoria</class>
+    <class>rusia2018.Persona</class>
+    <class>rusia2018.Estadio</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@orion.javeriana.edu.co:1521:PUJDB"/>
+      <property name="javax.persistence.jdbc.user" value="is175804"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="M2pW63f3KO"/>
+    </properties>
+  </persistence-unit>
+</persistence>
